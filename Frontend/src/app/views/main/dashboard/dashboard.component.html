@@ -1,0 +1,720 @@
+<!-- begin modules/posslideshows/views/templates/hook/slider.tpl -->
+<div class="slideshow_container">
+  <div class="pos-slideshow">
+    <div class="flexslider ma-nivoslider">
+      <div class="pos-loading"></div>
+      <div id="pos-slideshow-home" class="slides">
+
+        <a href="http://www.posthemes.com/" title="Sample 1"><img style="display:none"
+                                                                  src="assets/modules/posslideshows/images/b3dab671dae533a1c804dedd7e998421cdfddd7c_banner1.jpg"
+                                                                  data-thumb="http://demo.posthemes.com/pos_koparion/modules/posslideshows/images/b3dab671dae533a1c804dedd7e998421cdfddd7c_banner1.jpg"
+                                                                  alt="" title="#htmlcaption1"/> </a>
+        <a href="http://www.posthemes.com/" title="Sample 2"><img style="display:none"
+                                                                  src="assets/modules/posslideshows/images/d29e1c2558a66923f33b26cadb67e3fe63d83056_banner2.jpg"
+                                                                  data-thumb="http://demo.posthemes.com/pos_koparion/modules/posslideshows/images/d29e1c2558a66923f33b26cadb67e3fe63d83056_banner2.jpg"
+                                                                  alt="" title="#htmlcaption2"/> </a>
+      </div>
+      <div id="htmlcaption1" class="pos-slideshow-caption nivo-html-caption nivo-caption">
+        <div class="timethai" style="
+								position:absolute;
+								top:0;
+								left:0;
+								z-index:8;
+								background-color: rgba(49, 56, 72, 0.298);
+								height:5px;
+								-webkit-animation: myfirst 5000ms ease-in-out;
+								-moz-animation: myfirst 5000ms ease-in-out;
+								-ms-animation: myfirst 5000ms ease-in-out;
+								animation: myfirst 5000ms ease-in-out;
+
+							">
+        </div>
+        <div class="banner7-des">
+          <div class="container">
+            <div class="info desc1">
+              <div class="container">
+                <p class="title1">Huge Sale</p>
+                <p class="title2">Skybook</p>
+                <p class="title3">Now starting at £99.00</p>
+                <p class="readmore"><a href="#"><span>Shop now</span></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="htmlcaption2" class="pos-slideshow-caption nivo-html-caption nivo-caption">
+        <div class="timethai" style="
+								position:absolute;
+								top:0;
+								left:0;
+								z-index:8;
+								background-color: rgba(49, 56, 72, 0.298);
+								height:5px;
+								-webkit-animation: myfirst 5000ms ease-in-out;
+								-moz-animation: myfirst 5000ms ease-in-out;
+								-ms-animation: myfirst 5000ms ease-in-out;
+								animation: myfirst 5000ms ease-in-out;
+
+							">
+        </div>
+        <div class="banner7-des">
+          <div class="container">
+            <div class="info desc2">
+              <div class="container">
+                <p class="title1">We can help get your</p>
+                <p class="title2">Books in Order</p>
+                <p class="title3">and Accessories</p>
+                <p class="readmore"><a href="#"><span>Contact Us Today!</span></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    //Function to animate slider captions
+    function doAnimations(elems) {
+      //Cache the animationend event in a variable
+      var animEndEv = 'webkitAnimationEnd animationend';
+
+      elems.each(function () {
+        var $this = $(this),
+          $animationType = $this.data('animation');
+        $this.addClass($animationType).one(animEndEv, function () {
+          $this.removeClass($animationType);
+        });
+      });
+    }
+
+    //Variables on page load
+    var $myCarousel = $('.ma-nivoslider'),
+      $firstAnimatingElems = $myCarousel.find('.nivo-caption').find("[data-animation ^= 'animated']");
+    //Animate captions in first slide on page load
+    doAnimations($firstAnimatingElems);
+
+  });
+</script>
+<!-- end modules/posslideshows/views/templates/hook/slider.tpl -->
+
+
+<aside id="notifications">
+  <div class="container">
+
+
+  </div>
+</aside>
+
+
+<div class="breadcrumb_container">
+  <div class="container">
+    <div class="breadcrumb-neme">
+      <nav data-depth="1" class="breadcrumb hidden-sm-down">
+        <ol itemscope itemtype="http://schema.org/BreadcrumbList">
+
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a itemprop="item" href="index.html">
+              <span itemprop="name">Home</span>
+            </a>
+            <meta itemprop="position" content="1">
+          </li>
+
+        </ol>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<section id="wrapper">
+
+  <div class="container">
+
+    <!-- begin /home/postheme/public_html/demo/pos_koparion/themes/theme_koparion1/modules/postabproductslider/producttabslider.tpl -->
+    <div class="product-tabs-container-slider product_block_container">
+      <div class="container">
+        <div class="title-gruod">
+          <div class="title-iner">
+            <h1>Top interesting</h1>
+            <p>Browse the collection of our best selling and top interresting products.</p>
+            <p>ll definitely find what you are looking for.</p>
+          </div>
+          <ul class="tabs_slider">
+            <li class="new_product first_item item  active " rel="tab_new_product">
+              <span>New Arrival</span>
+
+            </li>
+            <li class="special_product  item " rel="tab_special_product">
+              <span>OnSale</span>
+
+            </li>
+            <li class="feature_product last_item item " rel="tab_feature_product">
+              <span>Featured Products</span>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="row pos_content">
+          <div id="tab_new_product" class="tab_content">
+            <div class="productTabContent0 owl-carousel">
+              <div class="item-product">
+
+
+                <!-- begin catalog/_partials/miniatures/product.tpl -->
+                <article class="js-product-miniature" data-id-product="15" data-id-product-attribute="99" itemscope
+                         itemtype="http://schema.org/Product">
+                  <div class="img_block">
+
+                    <a routerLink="/main/book-details"
+                       class="thumbnail product-thumbnail">
+                      <img
+                        src="assets/155-home_default/chaz-kangeroo-hoodie3.jpg"
+                        alt="Chaz Kangeroo Hoodie3"
+                        data-full-size-image-url="assets/155-home_default/chaz-kangeroo-hoodie3.jpg"
+                      >
+
+                    </a>
+
+
+                    <ul class="product-flag">
+                      <li class=" new"><span>New</span></li>
+                    </ul>
+
+                    <div class="quick">
+                      <a href="#" class="quick-view" data-link-action="quickview" title="Quick view">Quick view</a>
+                    </div>
+                  </div>
+                  <div class="product_desc">
+                    <div class="desc_info">
+
+                      <div class="hook-reviews">
+
+                        <!-- begin modules/productcomments/productcomments_reviews.tpl -->
+                        <div itemtype="http://schema.org/AggregateRating" itemscope="" itemprop="aggregateRating"
+                             class="comments_note">
+
+                        </div>
+
+                        <!-- end modules/productcomments/productcomments_reviews.tpl -->
+
+                      </div>
+
+
+                      <h4><a routerLink="/main/book-details"
+                             title="Chaz Kangeroo Hoodie3" itemprop="name" class="product_name">Chaz Kangeroo
+                        Hoodie3</a></h4>
+
+
+                      <div class="product-price-and-shipping">
+                        <span itemprop="price" class="price ">$45.50</span>
+
+
+                        <span class="sr-only">Price</span>
+
+
+                      </div>
+
+
+                      <div class="product-desc" itemprop="description"><p>Sleeveless knee-length chiffon dress.
+                        V-neckline with elastic under the bust lining.</p></div>
+
+
+                      <div class="variant-links">
+                        <a href="home/15-96-chaz-kangeroo-hoodie3.html#/1-size-s/8-color-white"
+                           class="color"
+                           title="White"
+
+                           style="background-color: #ffffff"><span class="sr-only">White</span></a>
+                        <a href="home/15-94-chaz-kangeroo-hoodie3.html#/2-size-m/16-color-yellow"
+                           class="color"
+                           title="Yellow"
+
+                           style="background-color: #F1C40F"><span class="sr-only">Yellow</span></a>
+                        <span class="js-count count"></span>
+                      </div>
+
+                    </div>
+                    <ul class="add-to-links">
+                      <li class="cart">
+
+                        <!-- begin catalog/_partials/customize/button-cart.tpl -->
+
+                        <div class="product-add-to-cart">
+                          <form action="http://demo.posthemes.com/pos_koparion/en/cart" method="post"
+                                class="add-to-cart-or-refresh">
+                            <input type="hidden" name="token" value="0401bbe5ee4935cbcffd98527e7806ca">
+                            <input type="hidden" name="id_product" value="15" class="product_page_product_id">
+                            <input type="hidden" name="qty" value="1">
+                            <button class="button ajax_add_to_cart_button add-to-cart btn-default"
+                                    data-button-action="add-to-cart" type="submit">
+                              Add to cart
+                            </button>
+                          </form>
+                        </div>
+
+
+                        <!-- end catalog/_partials/customize/button-cart.tpl -->
+
+                      </li>
+                      <li class="details">
+                        <a href="home/15-99-chaz-kangeroo-hoodie3.html#/1-size-s/16-color-yellow"
+                           class="links-details" title="Details">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+
+                <!-- end catalog/_partials/miniatures/product.tpl -->
+
+
+              </div>
+
+            </div>
+          </div>
+          <div id="tab_special_product" class="tab_content">
+            <div class="productTabContent1 owl-carousel">
+              <div class="item-product">
+
+
+                <!-- begin catalog/_partials/miniatures/product.tpl -->
+                <article class="js-product-miniature" data-id-product="13" data-id-product-attribute="81" itemscope
+                         itemtype="http://schema.org/Product">
+                  <div class="img_block">
+
+                    <a href="home/13-81-voyage-yoga-bag.html#/1-size-s/13-color-orange"
+                       class="thumbnail product-thumbnail">
+                      <img
+                        src="../135-home_default/voyage-yoga-bag.jpg"
+                        alt="Voyage Yoga Bag"
+                        data-full-size-image-url="../135-large_default/voyage-yoga-bag.jpg"
+                      >
+
+                    </a>
+
+
+                    <ul class="product-flag">
+                      <li class="discount-percentage"><span>-5%</span></li>
+                      <li class=" discount"><span>Reduced price</span></li>
+                      <li class=" new"><span>New</span></li>
+                    </ul>
+
+                    <div class="quick">
+                      <a href="#" class="quick-view" data-link-action="quickview" title="Quick view">Quick view</a>
+                    </div>
+                  </div>
+                  <div class="product_desc">
+                    <div class="desc_info">
+
+                      <div class="hook-reviews">
+
+                        <!-- begin modules/productcomments/productcomments_reviews.tpl -->
+                        <div class="comments_note" itemprop="aggregateRating" itemscope
+                             itemtype="https://schema.org/AggregateRating">
+                          <div class="star_content clearfix">
+                            <div class="star star_on"></div>
+                            <div class="star star_on"></div>
+                            <div class="star star_on"></div>
+                            <div class="star star_on"></div>
+                            <div class="star star_on"></div>
+                            <meta itemprop="worstRating" content="0"/>
+                            <meta itemprop="ratingValue" content="5"/>
+                            <meta itemprop="bestRating" content="5"/>
+                          </div>
+                          <span class="nb-comments"><span itemprop="reviewCount">1</span> Review(s)</span>
+                        </div>
+
+                        <!-- end modules/productcomments/productcomments_reviews.tpl -->
+
+                      </div>
+
+
+                      <h4><a href="home/13-81-voyage-yoga-bag.html#/1-size-s/13-color-orange" title="Voyage Yoga Bag"
+                             itemprop="name" class="product_name">Voyage Yoga Bag</a></h4>
+
+
+                      <div class="product-price-and-shipping">
+                        <span itemprop="price" class="price  price_sale ">$61.21</span>
+
+
+                        <span class="sr-only">Regular price</span>
+                        <span class="regular-price">$64.43</span>
+                        <span class="discount-percentage">-5%</span>
+
+
+                        <span class="sr-only">Price</span>
+
+
+                      </div>
+
+
+                      <div class="product-desc" itemprop="description"><p>Faded short sleeves t-shirt with high
+                        neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and
+                        you're ready for summer!</p></div>
+
+
+                      <div class="variant-links">
+                        <a href="home/13-77-voyage-yoga-bag.html#/2-size-m/13-color-orange"
+                           class="color"
+                           title="Orange"
+
+                           style="background-color: #F39C11"><span class="sr-only">Orange</span></a>
+                        <a href="home/13-76-voyage-yoga-bag.html#/1-size-s/14-color-blue"
+                           class="color"
+                           title="Blue"
+
+                           style="background-color: #5D9CEC"><span class="sr-only">Blue</span></a>
+                        <span class="js-count count"></span>
+                      </div>
+
+                    </div>
+                    <ul class="add-to-links">
+                      <li class="cart">
+
+                        <!-- begin catalog/_partials/customize/button-cart.tpl -->
+
+                        <div class="product-add-to-cart">
+                          <form action="http://demo.posthemes.com/pos_koparion/en/cart" method="post"
+                                class="add-to-cart-or-refresh">
+                            <input type="hidden" name="token" value="0401bbe5ee4935cbcffd98527e7806ca">
+                            <input type="hidden" name="id_product" value="13" class="product_page_product_id">
+                            <input type="hidden" name="qty" value="1">
+                            <button class="button ajax_add_to_cart_button add-to-cart btn-default"
+                                    data-button-action="add-to-cart" type="submit">
+                              Add to cart
+                            </button>
+                          </form>
+                        </div>
+
+
+                        <!-- end catalog/_partials/customize/button-cart.tpl -->
+
+                      </li>
+                      <li class="details">
+                        <a href="home/13-81-voyage-yoga-bag.html#/1-size-s/13-color-orange" class="links-details"
+                           title="Details">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+
+                <!-- end catalog/_partials/miniatures/product.tpl -->
+
+
+              </div>
+
+              <div class="item-product">
+
+
+                <!-- begin catalog/_partials/miniatures/product.tpl -->
+                <article class="js-product-miniature" data-id-product="2" data-id-product-attribute="7" itemscope
+                         itemtype="http://schema.org/Product">
+                  <div class="img_block">
+
+                    <a href="home/2-7-rival-field-messenger.html#/1-size-s/11-color-black"
+                       class="thumbnail product-thumbnail">
+                      <img
+                        src="../60-home_default/rival-field-messenger.jpg"
+                        alt="Rival Field Messenger"
+                        data-full-size-image-url="../60-large_default/rival-field-messenger.jpg"
+                      >
+
+                    </a>
+
+
+                    <ul class="product-flag">
+                      <li class="discount-percentage"><span>-5%</span></li>
+                      <li class=" discount"><span>Reduced price</span></li>
+                      <li class=" new"><span>New</span></li>
+                    </ul>
+
+                    <div class="quick">
+                      <a href="#" class="quick-view" data-link-action="quickview" title="Quick view">Quick view</a>
+                    </div>
+                  </div>
+                  <div class="product_desc">
+                    <div class="desc_info">
+
+                      <div class="hook-reviews">
+
+                        <!-- begin modules/productcomments/productcomments_reviews.tpl -->
+                        <div itemtype="http://schema.org/AggregateRating" itemscope="" itemprop="aggregateRating"
+                             class="comments_note">
+                          <div class="star_content clearfix">
+                            <div class="star "></div>
+                            <div class="star "></div>
+                            <div class="star "></div>
+                            <div class="star"></div>
+                            <div class="star "></div>
+                          </div>
+                        </div>
+
+                        <!-- end modules/productcomments/productcomments_reviews.tpl -->
+
+                      </div>
+
+
+                      <h4><a href="home/2-7-rival-field-messenger.html#/1-size-s/11-color-black"
+                             title="Rival Field Messenger" itemprop="name" class="product_name">Rival Field
+                        Messenger</a></h4>
+
+
+                      <div class="product-price-and-shipping">
+                        <span itemprop="price" class="price  price_sale ">$52.13</span>
+
+
+                        <span class="sr-only">Regular price</span>
+                        <span class="regular-price">$54.87</span>
+                        <span class="discount-percentage">-5%</span>
+
+
+                        <span class="sr-only">Price</span>
+
+
+                      </div>
+
+
+                      <div class="product-desc" itemprop="description"><p>Short-sleeved blouse with feminine draped
+                        sleeve detail.</p></div>
+
+
+                      <div class="variant-links">
+                        <a href="home/2-8-rival-field-messenger.html#/1-size-s/8-color-white"
+                           class="color"
+                           title="White"
+
+                           style="background-color: #ffffff"><span class="sr-only">White</span></a>
+                        <a href="home/2-7-rival-field-messenger.html#/1-size-s/11-color-black"
+                           class="color"
+                           title="Black"
+
+                           style="background-color: #434A54"><span class="sr-only">Black</span></a>
+                        <span class="js-count count"></span>
+                      </div>
+
+                    </div>
+                    <ul class="add-to-links">
+                      <li class="cart">
+
+                        <!-- begin catalog/_partials/customize/button-cart.tpl -->
+
+                        <div class="product-add-to-cart">
+                          <form action="http://demo.posthemes.com/pos_koparion/en/cart" method="post"
+                                class="add-to-cart-or-refresh">
+                            <input type="hidden" name="token" value="0401bbe5ee4935cbcffd98527e7806ca">
+                            <input type="hidden" name="id_product" value="2" class="product_page_product_id">
+                            <input type="hidden" name="qty" value="1">
+                            <button class="button ajax_add_to_cart_button add-to-cart btn-default"
+                                    data-button-action="add-to-cart" type="submit">
+                              Add to cart
+                            </button>
+                          </form>
+                        </div>
+
+
+                        <!-- end catalog/_partials/customize/button-cart.tpl -->
+
+                      </li>
+                      <li class="details">
+                        <a href="home/2-7-rival-field-messenger.html#/1-size-s/11-color-black" class="links-details"
+                           title="Details">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+
+                <!-- end catalog/_partials/miniatures/product.tpl -->
+
+
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- end /home/postheme/public_html/demo/pos_koparion/themes/theme_koparion1/modules/postabproductslider/producttabslider.tpl -->
+
+    <!-- begin modules/posstaticblocks/block.tpl -->
+    <div class="static1"><a href="#"> <img src="../img/cms/img1_home1.jpg" alt=""/> <span class="text"> <span
+      class="text1">G. Meyer Books & Spiritual Traveler Press</span> <span
+      class="text2">Sale up to 30% off</span> </span> </a></div>
+
+    <!-- end modules/posstaticblocks/block.tpl -->
+
+
+
+  </div>
+
+
+  <div class="gruod1">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-lg-3">
+          <div class="ft_newsletter">
+
+            <h2>Sign up for send newsletter</h2>
+            <span class="desc">You can be always up to date with our company new!</span>
+            <form action="http://demo.posthemes.com/pos_koparion/en/#footer" method="post">
+              <div class="input-wrapper">
+                <input
+                  name="email"
+                  class="input_txt"
+                  type="text"
+                  value=""
+                  placeholder="Your email address"
+                >
+              </div>
+              <button
+                class="btn btn-primary"
+                name="submitNewsletter"
+                type="submit"
+              ><span>Subscribe !</span></button>
+              <input type="hidden" name="action" value="0">
+            </form>
+          </div>
+        </div>
+        <!-- end /home/postheme/public_html/demo/pos_koparion/themes/theme_koparion1/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl -->
+        <!-- end module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl -->
+
+      </div>
+    </div>
+  </div>
+
+  <!-- begin /home/postheme/public_html/demo/pos_koparion/themes/theme_koparion1/modules/postestimonials//views/templates/front/testimonials_random.tpl -->
+  <div class="testimonials_container">
+    <div class="container">
+      <div class="block_content">
+        <div class="testimonialsSlide owl-carousel">
+          <div class="item-testimonials">
+
+            <div class="item">
+              <div class="content_test">
+                <p class="des_testimonial">I&#039;m so happy with all of the themes, great support, could not wish for
+                  more. These people are geniuses ! Kudo&#039;s from the Netherlands !</p>
+              </div>
+              <div class="content_author">
+                <span class="des_namepost">Sandy Wilcke /user</span>
+              </div>
+            </div>
+          </div>
+          <div class="item-testimonials">
+
+            <div class="item">
+              <div class="content_test">
+                <p class="des_testimonial">I&#039;m so happy with all of the themes, great support, could not wish for
+                  more. These people are geniuses ! Kudo&#039;s from the Netherlands ! </p>
+              </div>
+              <div class="content_author">
+                <span class="des_namepost">Sandy Wilcke/user</span>
+              </div>
+            </div>
+          </div>
+          <div class="item-testimonials">
+
+            <div class="item">
+              <div class="content_test">
+                <p class="des_testimonial">I&#039;m so happy with all of the themes, great support, could not wish for
+                  more. These people are geniuses ! Kudo&#039;s from the Netherlands !</p>
+              </div>
+              <div class="content_author">
+                <span class="des_namepost"> Sandy Wilcke/user</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var testi = $(".testimonialsSlide");
+      testi.owlCarousel({
+        items: 1,
+        singleItem: true,
+        autoPlay: false,
+        stopOnHover: true,
+        pagination: true,
+        navigation: true,
+      });
+    });
+  </script>
+
+
+  <!-- begin modules/posstaticblocks/block.tpl -->
+  <div class="gruod-static">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12 box1">
+          <div class="tweets">
+            <h2>Lates tweets</h2>
+            <div class="conten">
+              <div class="text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+                Mirum est notare quam <a class="links" href="https://twitter.com/posthemes"><span>posthemes</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 box2">
+          <div class="links">
+            <h2>Stay Connected</h2>
+            <ul class="link-follow">
+              <li class="first"><a class="twitter fa fa-twitter" title="Twitter" href="https://twitter.com/posthemes"><span>twitter</span></a>
+              </li>
+              <li><a class="google fa fa-google-plus" title="Google" href="#"><span>google </span></a></li>
+              <li><a class="facebook fa fa-facebook" title="Facebook" href="https://www.facebook.com/posthemes"><span>facebook</span></a>
+              </li>
+              <li><a class="youtube fa fa-youtube" title="Youtube"
+                     href="https://www.youtube.com/user/posthemes"><span>youtube </span></a></li>
+              <li><a class="flickr fa fa-flickr" title="Flickr" href="#"><span>Flickr </span></a></li>
+              <li><a class="vimeo fa fa-vimeo-square" title="Vimeo" href="#"><span>Vimeo</span></a></li>
+              <li><a class="instagram fa fa-instagram" title="Instagram" href="#"><span>Instagram</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end modules/posstaticblocks/block.tpl -->
+  <div class="container">
+    <div class="row">
+
+
+      <div id="content-wrapper" class="col-xs-12">
+
+
+        <div id="main">
+
+
+          <div id="content" class="page-home">
+
+
+          </div>
+
+
+          <footer class="page-footer">
+
+            <!-- Footer content -->
+
+          </footer>
+
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+  </div>
+</section>

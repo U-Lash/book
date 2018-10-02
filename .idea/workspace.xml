@@ -1,52 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af1f81fa-9a00-418f-a767-695d47458063" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/125-home_default/copy-of-printed-summer-dress.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/125-home_default/impulse-duffle.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/155-home_default/chaz-kangeroo-hoodie3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/155-home_default/copy-of-printed-summer-dress.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/ajax/libs/jquery/3.2.1/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/cache/bottom-3442e9.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/cache/bottom-8224b2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/cache/theme-67edf5.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/cms/img1_home1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/cms/img2_home1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/cms/img3_home1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/cms/img4_home1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/cms/payment.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/koparion-responsive-prestashop-theme-logo-15177961071.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/l/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/l/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/m/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/st/1-stores_default.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/st/2-stores_default.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/st/3-stores_default.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/st/4-stores_default.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/st/5-stores_default.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/img/su/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/blockreassurance/img/ic_local_shipping_black_36dp_1x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/blockreassurance/img/ic_swap_horiz_black_36dp_1x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/blockreassurance/img/ic_verified_user_black_36dp_1x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/posslideshows/images/b3dab671dae533a1c804dedd7e998421cdfddd7c_banner1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/posslideshows/images/d29e1c2558a66923f33b26cadb67e3fe63d83056_banner2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/ps_advertising/img/advertising-s1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/xipblog/img/home_default-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/xipblog/img/home_default-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/xipblog/img/home_default-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/xipblog/img/home_default-4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/xipblog/img/large-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/xipblog/img/large-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/xipblog/img/large-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Frontend/src/assets/modules/xipblog/img/large-4.jpg" />
-      <change beforePath="$PROJECT_DIR$/Frontend/angular.json" afterPath="$PROJECT_DIR$/Frontend/angular.json" />
-      <change beforePath="$PROJECT_DIR$/Frontend/package-lock.json" afterPath="$PROJECT_DIR$/Frontend/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/Frontend/package.json" afterPath="$PROJECT_DIR$/Frontend/package.json" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/app/app.component.html" afterPath="$PROJECT_DIR$/Frontend/src/app/app.component.html" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/app/app.component.spec.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/app/app.module.ts" afterPath="$PROJECT_DIR$/Frontend/src/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/index.html" afterPath="$PROJECT_DIR$/Frontend/src/index.html" />
-    </list>
+    <list default="true" id="af1f81fa-9a00-418f-a767-695d47458063" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Backend/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,8 +64,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Backend/src/main/java/lk/ijse/book/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="68">
+              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -209,7 +164,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -270,9 +225,6 @@
       <select />
     </treeState>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/Frontend/node_modules" />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="805" />
     <option name="height" value="735" />
@@ -293,195 +245,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
               <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="book-details" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShopPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShopPro" type="462c0819:PsiDirectoryNode" />
-              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,6 +275,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -692,11 +476,12 @@
       <workItem from="1538402874335" duration="580000" />
       <workItem from="1538404962856" duration="7683000" />
       <workItem from="1538495617806" duration="1147000" />
+      <workItem from="1538498916635" duration="146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38269000" />
+    <option name="totallyTimeSpent" value="38415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -719,11 +504,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23519737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22163388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2246596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -957,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1853">
           <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,8 +938,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Backend/src/main/java/lk/ijse/book/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -1,90 +1,27 @@
 <div id="authentication" class="lang-en country-us currency-usd layout-full-width page-authentication tax-display-disabled page-customer-account">
 
-
-
-
-
-
-
-
   <section id="wrapper">
 
     <div class="container">
     </div>
     <div class="container">
       <div class="row">
-
-
-
         <div id="content-wrapper" class="col-xs-12">
-
-
-
           <div id="main">
-
-
-
             <header class="page-header">
               <h1>
                 Log in to your account
               </h1>
             </header>
-
-
-
-
             <section id="content" class="page-content card card-block">
-
-
-
               <section class="login-form">
-
-                <!-- begin customer/_partials/login-form.tpl -->
-
-
-
-
-
                 <form id="login-form" action="http://demo.posthemes.com/pos_koparion/en/login?back=my-account" method="post">
-
                   <section>
-
-
-
-                    <!-- begin _partials/form-fields.tpl -->
-
-
                     <input type="hidden" name="back" value="my-account">
-
-
-
-                    <!-- end _partials/form-fields.tpl -->
-
-
-
-
-                    <!-- begin _partials/form-fields.tpl -->
-
                     <div class="form-group row ">
-                      <label class="col-md-3 form-control-label required">
-                        Email
-                      </label>
+                      <label class="col-md-3 form-control-label required">Email</label>
                       <div class="col-md-6">
-
-
-
-                        <input
-                          class="form-control"
-                          name="email"
-                          type="email"
-                          value=""
-                          required          >
-
-
-
-
-
-
+                        <input class="form-control" name="email" type="email" value="" required>
                       </div>
 
                       <div class="col-md-3 form-control-comment">
@@ -92,60 +29,23 @@
 
                       </div>
                     </div>
-
-
-                    <!-- end _partials/form-fields.tpl -->
-
-
-
-
-                    <!-- begin _partials/form-fields.tpl -->
-
                     <div class="form-group row ">
-                      <label class="col-md-3 form-control-label required">
-                        Password
-                      </label>
+                      <label class="col-md-3 form-control-label required">Password</label>
                       <div class="col-md-6">
-
-
-
                         <div class="input-group js-parent-focus">
-                          <input
-                            class="form-control js-child-focus js-visible-password"
-                            name="password"
-                            type="password"
-                            value=""
-                            pattern=".{5,}"
-                            required            >
+                          <input class="form-control js-child-focus js-visible-password" name="password" type="password" value="" pattern=".{5,}" required>
                           <span class="input-group-btn">
-              <button
-                class="btn"
-                type="button"
-                data-action="show-password"
-                data-text-show="Show"
-                data-text-hide="Hide"
-              >
-                Show
-              </button>
-            </span>
+              <buttonclass="btn"type="button" data-action="show-password" data-text-show="Show" data-text-hide="Hide">Show</button>
+                                                     </span>
                         </div>
-
-
-
-
-
-
                       </div>
 
                       <div class="col-md-3 form-control-comment">
-
-
                       </div>
                     </div>
 
 
                     <!-- end _partials/form-fields.tpl -->
-
 
 
                     <div class="forgot-password">
@@ -158,9 +58,7 @@
 
                   <footer class="form-footer text-sm-center clearfix">
                     <input type="hidden" name="submitLogin" value="1">
-                    <button class="btn btn-primary form-control-submit" data-link-action="save-customer" type="submit">
-                      Sign in
-                    </button>
+                    <button class="btn btn-primary form-control-submit" data-link-action="save-customer" type="submit">Sign in</button>
 
                   </footer>
 
@@ -174,16 +72,12 @@
               <hr/>
 
 
-
               <div class="no-account">
-                <a routerLink="/main/signup" data-link-action="display-register-form">
-                  No account? Create one here
-                </a>
+                <a routerLink="/main/signup" data-link-action="display-register-form">No account? Create one here</a>
               </div>
 
 
             </section>
-
 
 
             <footer class="page-footer">
@@ -196,9 +90,7 @@
           </div>
 
 
-
         </div>
-
 
 
       </div>

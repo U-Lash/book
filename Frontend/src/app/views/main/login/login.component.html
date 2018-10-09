@@ -1,4 +1,5 @@
-<div id="authentication" class="lang-en country-us currency-usd layout-full-width page-authentication tax-display-disabled page-customer-account">
+<div id="authentication"
+     class="lang-en country-us currency-usd layout-full-width page-authentication tax-display-disabled page-customer-account">
 
   <section id="wrapper">
 
@@ -6,47 +7,81 @@
     </div>
     <div class="container">
       <div class="row">
+
         <div id="content-wrapper" class="col-xs-12">
+
           <div id="main">
+
             <header class="page-header">
               <h1>
                 Log in to your account
               </h1>
             </header>
+
             <section id="content" class="page-content card card-block">
+
               <section class="login-form">
-                <form id="login-form" action="http://demo.posthemes.com/pos_koparion/en/login?back=my-account" method="post">
+
+                <form id="login-form" #frmLogin="ngForm" action="" method="post" (ngSubmit)="authenticateLogin()">
+
                   <section>
                     <input type="hidden" name="back" value="my-account">
+
                     <div class="form-group row ">
-                      <label class="col-md-3 form-control-label required">Email</label>
+                      <label class="col-md-3 form-control-label required">
+                        Account Type
+                      </label>
                       <div class="col-md-6">
-                        <input class="form-control" name="email" type="email" value="" required>
+                        <select class="form-control" [(ngModel)]="user.accountType"
+                                name="txtType">
+                          <option>Admin</option>
+                          <option>User</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group row ">
+                      <label class="col-md-3 form-control-label required">
+                        Email
+                      </label>
+                      <div class="col-md-6">
+
+                        <input type="text" class="form-control" [(ngModel)]="user.userID" name="txtUserid">
+
                       </div>
 
                       <div class="col-md-3 form-control-comment">
 
-
                       </div>
                     </div>
+
                     <div class="form-group row ">
-                      <label class="col-md-3 form-control-label required">Password</label>
+                      <label class="col-md-3 form-control-label required">
+                        Password
+                      </label>
                       <div class="col-md-6">
+
                         <div class="input-group js-parent-focus">
-                          <input class="form-control js-child-focus js-visible-password" name="password" type="password" value="" pattern=".{5,}" required>
+                          <input type="password" class="form-control" [(ngModel)]="user.userPassword"
+                                 name="txtPassword">
                           <span class="input-group-btn">
-              <buttonclass="btn"type="button" data-action="show-password" data-text-show="Show" data-text-hide="Hide">Show</button>
-                                                     </span>
+              <button
+                class="btn"
+                type="button"
+                data-action="show-password"
+                data-text-show="Show"
+                data-text-hide="Hide"
+              >
+                Show
+              </button>
+            </span>
                         </div>
+
                       </div>
 
                       <div class="col-md-3 form-control-comment">
+
                       </div>
                     </div>
-
-
-                    <!-- end _partials/form-fields.tpl -->
-
 
                     <div class="forgot-password">
                       <a href="password-recovery.html" rel="nofollow">
@@ -58,44 +93,36 @@
 
                   <footer class="form-footer text-sm-center clearfix">
                     <input type="hidden" name="submitLogin" value="1">
-                    <button class="btn btn-primary form-control-submit" data-link-action="save-customer" type="submit">Sign in</button>
-
+                    <button class="btn btn-primary form-control-submit" data-link-action="save-customer" type="submit">
+                      Sign in
+                    </button>
+                    <div *ngIf="failed" class="alert alert-danger"
+                         style="margin-left: 10px;margin-right: 10px;text-align: center;color: #870c00;font-weight: bold;margin-top: 10px">
+                      Incorrect username or password
+                    </div>
                   </footer>
 
-
                 </form>
-
-
-                <!-- end customer/_partials/login-form.tpl -->
 
               </section>
               <hr/>
 
-
               <div class="no-account">
-                <a routerLink="/main/signup" data-link-action="display-register-form">No account? Create one here</a>
+                <a routerLink="/main/signup" data-link-action="display-register-form">
+                  No account? Create one here
+                </a>
               </div>
 
 
             </section>
-
-
             <footer class="page-footer">
 
-              <!-- Footer content -->
-
             </footer>
-
-
           </div>
-
 
         </div>
 
-
       </div>
-
     </div>
   </section>
-
 </div>

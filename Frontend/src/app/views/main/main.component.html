@@ -13,8 +13,11 @@
             <a href="loginfd9a.html" rel="nofollow" *ngIf="isLoggedIn()">My account</a>
             <a href="cart75f4.html?action=show" *ngIf="isLoggedIn()">Checkout</a>
 
-            <a routerLink="/main/login" title="Log in to your customer account" rel="nofollow">
-              <span class="">{{signButtonText}}</span>
+            <a *ngIf="!isLoggedIn()" routerLink="/main/login" title="Log in to your customer account" rel="nofollow">
+              <span>Sign in</span>
+            </a>
+            <a *ngIf="isLoggedIn()" (click)="logout()" title="Log in to your customer account" rel="nofollow">
+              <span>Sign out</span>
             </a>
           </div>
 

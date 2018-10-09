@@ -8,6 +8,8 @@ import {AppRoutingModule} from "./app-routing.module";
 import { SignUpComponent } from './views/main/sign-up/sign-up.component';
 import { DashboardComponent } from './views/main/dashboard/dashboard.component';
 import { BookDetailsComponent } from './views/main/book-details/book-details.component';
+import {FormsModule} from "@angular/forms";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { BookDetailsComponent } from './views/main/book-details/book-details.com
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

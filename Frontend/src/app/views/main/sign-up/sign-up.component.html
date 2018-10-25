@@ -34,29 +34,10 @@
               <section class="register-form">
                 <p>Already have an account? <a routerLink="/main/login">Log in instead!</a></p>
 
-                <!-- begin customer/_partials/customer-form.tpl -->
-
-
-
-
-                <form action="http://demo.posthemes.com/pos_koparion/en/login?create_account=1" id="customer-form" class="js-customer-form" method="post">
+                <form id="signup-form" #frmLogin="ngForm" action="" method="post" (ngSubmit)="signUp()">
                   <section>
 
-
-
-                    <!-- begin _partials/form-fields.tpl -->
-
-
                     <input type="hidden" name="id_customer" value="">
-
-
-
-                    <!-- end _partials/form-fields.tpl -->
-
-
-
-
-                    <!-- begin _partials/form-fields.tpl -->
 
                     <div class="form-group row ">
                       <label class="col-md-3 form-control-label">
@@ -123,7 +104,7 @@
                           name="firstname"
                           type="text"
                           value=""
-                          required          >
+                          required      [(ngModel)]="newUser.firstName"    >
 
 
 
@@ -159,7 +140,7 @@
                           name="lastname"
                           type="text"
                           value=""
-                          required          >
+                          required    [(ngModel)]="newUser.lastName"      >
 
 
 
@@ -195,7 +176,7 @@
                           name="email"
                           type="email"
                           value=""
-                          required          >
+                          required     [(ngModel)]="newUser.email"     >
 
 
 
@@ -231,9 +212,8 @@
                             class="form-control js-child-focus js-visible-password"
                             name="password"
                             type="password"
-                            value=""
-                            pattern=".{5,}"
-                            required            >
+
+                            required    [(ngModel)]="newUser.password"        >
                           <span class="input-group-btn">
               <button
                 class="btn"
@@ -260,14 +240,6 @@
                       </div>
                     </div>
 
-
-                    <!-- end _partials/form-fields.tpl -->
-
-
-
-
-                    <!-- begin _partials/form-fields.tpl -->
-
                     <div class="form-group row ">
                       <label class="col-md-3 form-control-label">
                         Birthdate
@@ -281,7 +253,7 @@
                           name="birthday"
                           type="text"
                           value=""
-                          placeholder="MM/DD/YYYY"                                  >
+                          placeholder="MM/DD/YYYY"   [(ngModel)]="newUser.birthday"                                >
                         <span class="form-control-comment">
               (E.g.: 05/31/1970)
             </span>

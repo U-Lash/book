@@ -31,6 +31,8 @@ export class LoginComponent implements OnInit {
         this.loggedUser = result;
         if (this.loggedUser.authenticate == true) {
           this.failed = false;
+          this.loginService.setLogged(true)
+          // localStorage.setItem('logged','true');
           localStorage.clear();
           localStorage.setItem("login", "logged");
           localStorage.setItem("userName", this.loggedUser.userName);
@@ -38,6 +40,8 @@ export class LoginComponent implements OnInit {
           this.router.navigate(['/main/dashboard']);
         } else {
           this.failed = true;
+          this.loginService.setLogged(false);
+          // localStorage.setItem('logged','false');
         }
       }
     );

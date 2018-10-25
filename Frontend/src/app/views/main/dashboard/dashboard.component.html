@@ -141,6 +141,19 @@
             <p>Browse the collection of our best selling and top interresting products.</p>
             <p>ll definitely find what you are looking for.</p>
           </div>
+          <div *ngIf="logged" style="margin-top: 10px">
+            <!--<input type="file">-->
+            <form method="POST" enctype="multipart/form-data" modelAttribute="fileBucket" (ngSubmit)="upload()"
+                  #frmUp="ngForm" action="">
+              <input type="file" name="file" multiple="multiple" #fileInput>
+              <div>{{size}}</div>
+              <button class="btn btn-primary" type="submit" style="margin-top: 10px">Add Book</button>
+            </form>
+          </div>
+          <br>
+          <div *ngIf="logged" style="margin-top: 10px">
+
+          </div>
           <ul class="tabs_slider">
             <li class="new_product first_item item  active " rel="tab_new_product">
               <span>New Arrival</span>
@@ -267,7 +280,6 @@
                     </ul>
                   </div>
                 </article>
-
                 <!-- end catalog/_partials/miniatures/product.tpl -->
 
 
@@ -551,7 +563,6 @@
     <!-- end modules/posstaticblocks/block.tpl -->
 
 
-
   </div>
 
 
@@ -622,7 +633,8 @@
           <div class="links">
             <h2>Stay Connected</h2>
             <ul class="link-follow">
-              <li class="first"><a class="twitter fa fa-twitter" title="Twitter" href="https://twitter.com/posthemes"><span>twitter</span></a>
+              <li class="first"><a class="twitter fa fa-twitter" title="Twitter"
+                                   href="https://twitter.com/posthemes"><span>twitter</span></a>
               </li>
               <li><a class="google fa fa-google-plus" title="Google" href="#"><span>google </span></a></li>
               <li><a class="facebook fa fa-facebook" title="Facebook" href="https://www.facebook.com/posthemes"><span>facebook</span></a>
